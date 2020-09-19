@@ -1,3 +1,7 @@
+body {
+  background-color:#CAD2C5;
+}
+
 header {
     background-color:#2F3E46;
 }
@@ -8,7 +12,7 @@ header h1 {
     color: #fff;
     text-align: center;
     margin: 0;
-    padding-top: 20px;
+    padding-top: 0 0 0 0;
 
 }
 
@@ -42,7 +46,7 @@ main {
     padding-bottom:20px;
 }
 main div {
-  padding: 0 50px 0 50px;
+  padding: 0 10px 0 10px;
 }
 
 form div textarea {
@@ -53,7 +57,7 @@ form div textarea {
     margin-bottom: 20px;
   }
 
-footer > div {
+footer {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size:12px;
     color:white;
@@ -77,15 +81,17 @@ footer > div {
   
 .item {
     flex: 1;
+
     margin: 10px;
   }
   
 .item-double {
     flex: 2;
+
     margin: 10px;
   }
   
-@media all and (min-width:600px) {
+@media all and (min-width:800px) {
     header {
         display: flex;
         justify-content: space-between;
@@ -104,6 +110,9 @@ footer > div {
     
     header nav ul li a:hover {
         color: #bdbdbd;
+      }
+      main div {
+        padding: 0 30px 0 30px;
       }
     .group {
         flex-direction:row;
